@@ -1,0 +1,180 @@
+a,
+a:hover, a:active{
+    text-decoration: none;
+}
+body{
+    /* background-color: #f5d9d5;
+     */
+     background-color: #e4e1e1;
+    font-family: "Nunito", sans-serif;
+
+}
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    /* color: #f498b8; */
+    color: black;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 2;
+}
+.content{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 2rem;
+    
+}
+#mainNavbar .nav-link{
+    color: white;
+    font-size: 1rem;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: black;
+}
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#headingGroup span{
+    color: #ea1c2c;
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media(max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.Social {
+    height: 2rem;
+    width: 2rem;
+
+}
+
+/*
+table tr {
+    margin: auto;
+    border: solid 1px black
+    padding-left: 20px;
+}
+
+table td {
+    width: 500px;
+
+}
+*/
+.footerOut {
+    background-color: black;
+    padding-bottom: 10px;
+   
+}
+
+#footer {
+    /* margin-left: 10px;
+    display: flex; */
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+
+}
+
+#footer .footerEl {
+
+    width: 33.33%;
+    height: 200px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#footer .footerEl div {
+    vertical-align: top;
+}
+
+#copyright {
+    color: white;
+}
+
+.footerHR {
+    box-align: center;
+    /* border-color: black; */
+    background-color: white;
+    size: 20px;
+}
+
+.footatt h6 {
+    color: white;
+}
+
+.footatt .SocialMedia {
+
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.footatt .SocialMedia a {
+    display: block;
+    /* padding-top: 10px; */
+    /* padding: 0.5rem 0.5rem; */
+
+}
+
+.footatt :hover {
+    color: white;
+}
+
+
+
+/* $quantity-btn-color: #95d7fc; */
+/* .product {
+	width: 30%;
+	margin: 30px;
+}
+.form-group {
+	width: 30%;
+	margin: 30px;
+}
+.glyphicon {
+		color: #95d7fc;
+	} */
+
+icon-shape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-sm {
+    width: 2rem;
+    height: 2rem;
+    
+}
+/* .quantity div{
+    display: flex;
+    justify-content: center;
+} */
+/* .quantity div {
+    padding: auto;
+} */
+
